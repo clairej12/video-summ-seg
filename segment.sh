@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cat=$1 # take first cmd line arg
-DIR=/mnt/data1/jielin/msmo/annotation/; # /data/jielin/msmo/video/;
-OUT=/mnt/data1/claire/video-summ/segments/; # /home/jielin/claire/video-summ/keyframes/sift/;
-VID=/mnt/data1/jielin/msmo/video/;
+DIR=/data/jielin/msmo/annotation/; # /mnt/data1/jielin/msmo/annotation/; 
+OUT=/data/jielin/claire/video-summ-segments/;
+VID=/data/jielin/msmo/video/;
 HOMEDIR=$PWD;
 
 # echo $DIR$cat
